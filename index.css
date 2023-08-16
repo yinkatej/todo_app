@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #000000cc;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.list{
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px 15px;
+    background-color: #0000003a;
+    border-radius: 6px;
+    width: 40%;
+}
+.list>h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color: beige;
+    text-decoration: solid black 10px;
+}
+
+.input{
+    
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+input[type=text]{
+    padding: 4px 10px;
+    font-size: 20px;
+    border-radius: 18px;
+    width: 100%;
+    border: none;
+    background-color: #ffffff11;
+    color: rgba(207, 204, 204, 0.87);
+}
+input:focus{
+    outline: none;
+    font-weight: bolder;
+}
+.input button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-radius:0px 18px 18px 0px;
+    background-color: #55ca1ff8;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    color: rgb(233, 0, 136);
+    cursor: pointer;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+
+}
+ul li{
+    list-style-type: none;
+    background-color: rgba(189, 224, 210, 0.055);
+    backdrop-filter: blur(5px) ;
+    width: fit-content;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family:  'Roboto', sans-serif;
+    margin-bottom: 10x;
+}
+.h{
+    width: 300px;
+    padding: 0px 5px 0px 4px;
+}
+.edit{
+    background-color: gray;
+    
+}
+.del{
+    background: red;
+}
+button:hover{
+    border: none
+}
+ul{
+    margin: auto;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+}
+li:nth-child(even){
+    background-color: rgba(189, 224, 210, 0.233);;
+}
+p{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
